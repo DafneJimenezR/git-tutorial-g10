@@ -7,3 +7,7 @@ También aprendimos que el archivo readme es complatible con [MarkDown](https://
 
 Esta línea representa el segundo commint. Adjunto el link de mi perfil personal de GitHub
 > [Dafne Jimenez](https://github.com/DafneJimenezR)
+
+Esta línea representa el primer commit realizado por terminal
+
+
