@@ -10,4 +10,6 @@ Esta línea representa el segundo commint. Adjunto el link de mi perfil personal
 
 Esta línea representa el primer commit realizado por terminal cuenta ok
 
+Esta línea representa el segundo commit  realizado por terminal. Este repositorio muestra el uso de staging con git.
+
 
