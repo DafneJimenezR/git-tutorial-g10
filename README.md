@@ -15,3 +15,5 @@ Esta línea representa el segundo commit  realizado por terminal. Este repositor
 Esta linea representa el tercer commit por termonal. Se agregó el archivo texto.txt
 
 Esta linea representa el 4 commit por terminal. se modificó el archivo readme.md para posteriormente descargar cambios desde GitHubDesktop
+
+Primer commit desde GitHubDesktop, despues descargar cambios desde gitTerminal
