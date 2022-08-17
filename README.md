@@ -12,4 +12,5 @@ Esta línea representa el primer commit realizado por terminal cuenta ok
 
 Esta línea representa el segundo commit  realizado por terminal. Este repositorio muestra el uso de staging con git.
 
+Esta linea representa el tercer commit por termonal. Se agregó el archivo texto.txt
 
