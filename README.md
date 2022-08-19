@@ -17,3 +17,5 @@ Esta linea representa el tercer commit por termonal. Se agregó el archivo texto
 Esta linea representa el 4 commit por terminal. se modificó el archivo readme.md para posteriormente descargar cambios desde GitHubDesktop
 
 Primer commit desde GitHubDesktop, despues descargar cambios desde gitTerminal
+
+Esta línea representa un commit realizado con la funcion de source control Integrad en Visual Studio Code.
