@@ -1,1 +1,9 @@
 Hola, somos el grupo g-10... uso de staging
+
+--------------Comandos sobre mosquitto--------------
+##Visualizador
+mosquitto_sub -h localhost -q 2 -p 1883 -i Dafisaurixx -t codigoIoT/mosquitto
+
+##Publicador
+mosquitto_pub -h localhost -q 2 ddafne@dafne-VM:~$ mosquitto_pub -h localhost -q 2 -p 1883 -i DafnePubli -t codigoIoT/mosquitto -m "Hola mosquitto"
+
