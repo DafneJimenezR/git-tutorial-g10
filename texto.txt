@@ -7,3 +7,16 @@ mosquitto_sub -h localhost -q 2 -p 1883 -i Dafisaurixx -t codigoIoT/mosquitto
 ##Publicador
 mosquitto_pub -h localhost -q 2 ddafne@dafne-VM:~$ mosquitto_pub -h localhost -q 2 -p 1883 -i DafnePubli -t codigoIoT/mosquitto -m "Hola mosquitto"
 
+##Broker publico
+
+##Suscriptor
+mosquitto_sub -h 3.121.170.193 -q 2 -p 1883 -i Dafne-0612 -t codigoIoT/Mor/ejemplo/mqtt
+
+##Publicador
+mosquitto_pub -h 3.121.170.193 -q 2 -p 1883 -i DC-222 -t codigoIoT/Mor/ejemplo/mqtt -m "Hola Soy Dafne"
+
+--Maneras de mandar un JSON
+*Comillas simples
+mosquitto_pub -h 3.121.170.193 -q 2 -p 1883 -i DC-222 -t codigoIoT/Mor/ejemplo/mqtt -m '{"ID":"DafneX","temp":20, "hum":75}'
+*Diagonal inversa
+mosquitto_pub -h 3.121.170.193 -q 2 -p 1883 -i DC-222 -t codigoIoT/Mor/ejemplo/mqtt -m "{\"ID\":\"DafneNNN\",\"temp\": 25,\"hum\":100}"
